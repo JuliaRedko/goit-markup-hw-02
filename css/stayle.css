@@ -29,10 +29,10 @@
     color: var(--title-text-color)
    }
 .header { 
-    background-color: var(--cloud-color);
+    background-color: var(--white-text-color);
    }
 
-.logo {
+   .header-nav .logo { 
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
@@ -202,7 +202,7 @@
            /* Portfolio */
  /* Button */
 .filters-item-btn {
-    background: var(--cloud-color);
+    
 }
 .text-btn {
     font-style: normal;
@@ -218,12 +218,31 @@
     cursor: pointer;
 }
 
-.filters-item-btn:hover,
-.filters-item-btn:focus {
+.text-btn:hover,
+.text-btn:focus {
     background: var(--acsent-color);
     color: var(--white-text-color);
+}
+.portfolio {
+    background: var(--white-text-color);
+}
+.portfolio-link {
+    background: var(--cloud-color);
+}
+.portfolio-imag {
+}
+.portfolio-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
 
-   
+}
+.portfolio-text .text {
+    
 }
 
 
